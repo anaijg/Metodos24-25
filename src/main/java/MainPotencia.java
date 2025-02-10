@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
-public class Main {
+public class MainPotencia {
 
     public static void main(String[] args) {
         // aquí es donde hacemos las llamadas a los métodos
-        int base = pedirNumero();
-        int exponente = pedirNumero();
-        System.out.println(calcularPotencia(base, exponente));
+
+        System.out.println(calcularPotencia(pedirNumero(), pedirNumero()));
+
+        // otro ejemplo
+        System.out.println(calcularPotencia(3,5 ));
 
     }
 
